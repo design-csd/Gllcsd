@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
     res.sendFile(path.resolve('./index.html'));
 })
 
-app.get('/DistributionSummary.plist', function (req, res) {
+app.get('/gllProject.plist', function (req, res) {
     res.sendFile(path.resolve('./DistributionSummary.plist'));
 })
 
