@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gllProject.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>773C982E2D3124532F20B47B0E3C5A982D0ECE71</string>
+				<key>dateExpires</key>
+				<string>22/04/21</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>M9P8499PND.org.reactjs.native.example.gllProject</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>M9P8499PND</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>M9P8499PND.org.reactjs.native.example.gllProject</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>gllProject.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b5656bf3-5717-4c42-900b-b5df39e70abc</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: org.reactjs.native.example.gllProject</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>M9P8499PND</string>
+				<key>name</key>
+				<string>CSD Technologies Private Limited</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
