@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/gllProject.plist', function (req, res) {
-    res.sendFile(path.resolve('./DistributionSummary.plist'));
+    res.sendFile(path.resolve('./gllProject.plist'));
 })
 
 app.get('/gllProject.ipa', function (req, res) {
